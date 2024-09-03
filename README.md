@@ -26,40 +26,12 @@ There were three datasets used in this project the links to them are below
 
 <br>
 
-<p>
-<strong>Data Overview :</strong>
-<br>
-<li> For every malware, we have two files <ol> <li> .asm file (read more: https://www.reviversoft.com/file-extensions/asm) </li><li>.bytes file (the raw data contains the hexadecimal representation of the file's binary content, without the PE header)</li></ol></li>
-    
-<li>Total train dataset consist of 200GB data out of which 50Gb of data is .bytes files and 150GB of data is .asm files:  </li>
-<li><b>Lots of Data for a single-box/computer.</b> </li>
-
-<li>There are total 10,868 .bytes files and 10,868 asm files total 21,736 files </li>
-
-<li>There are 9 types of malwares (9 classes) in our give data</li>
-<li> Types of Malware:
-    <ol>
-        <li> Ramnit </li>
-        <li> Lollipop </li>
-        <li> Kelihos_ver3 </li>
-        <li> Vundo </li>
-        <li> Simda </li>
-        <li> Tracur </li>
-        <li> Kelihos_ver1 </li>
-        <li> Obfuscator.ACY </li>
-        <li> Gatak </li>
-    </ol>
-</li>
-
-
-<br />
-
 <br>
 
 <p>
-<strong>ML Problem Formulation :</strong>
+<strong></strong>Problem Formulation :</strong>
 </p>
-<p> <strong>It is a binary classification problem, for a given pair of questions we need to predict if they are duplicate or not.</strong> </p>
+<p> <strong>It is a Image detection problem so we will use convolutional neural networks to extract features from the images and give a score between 1 to 5.</strong> </p>
 
 <br>
 <br>
@@ -68,8 +40,7 @@ There were three datasets used in this project the links to them are below
 <strong>Performance metrics :</strong>
 </p>
 <ol>
-<li>Multi class log-loss </li>
-<li>Confusion Matrix</li>
+<li>Mean Absolute error </li>
 </ol>
 
 <hr width="100%" size="2">
