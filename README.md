@@ -53,7 +53,7 @@ There were three datasets used in this project the links to them are below
   
   <br>
 
-  <h3 align= "center">Combining csv and images of three datasets</h3>
+  <h3 align= "center">Combining multiple datasets</h3>
   
   <div align= "center">|</div>
   <div align= "center">|</div>
