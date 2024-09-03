@@ -53,32 +53,39 @@ There were three datasets used in this project the links to them are below
   
   <br>
 
-  <h3 align= "center">Reading Data and Basic Stats</h3>
+  <h3 align= "center">Combining csv and images of three datasets</h3>
   
   <div align= "center">|</div>
   <div align= "center">|</div>
   <div align= "center">\/</div>
 
-  <h3 align= "center">Feature extraction from byte files</h3>
+  <h3 align= "center">Resizing images</h3>
 
   <div align= "center">|</div>
   <div align= "center">|</div>
   <div align= "center">\/</div>
 
-  <h3 align= "center">Feature extraction from asm files</h3>
+  <h3 align= "center">Train, Test, Cross validation split</h3>
 
   <div align= "center">|</div>
   <div align= "center">|</div>
   <div align= "center">\/</div>
 
-  <h3 align= "center">Univariate and Multivariate Analysis</h3>
+  <h3 align= "center">Data Augmentation using Image data generator</h3>
 
 
   <div align= "center">|</div>
   <div align= "center">|</div>
   <div align= "center">\/</div>
 
-  <h3 align= "center">Modelling</h3>
+  <h3 align= "center">Convolutional Neural Network (Multiple Architectures)</h3>
+
+  <div align= "center">|</div>
+  <div align= "center">|</div>
+  <div align= "center">\/</div>
+
+  <h3 align= "center">Fine Tuning (Using ResNet)</h3>
+
 
 
   
@@ -92,7 +99,9 @@ There were three datasets used in this project the links to them are below
 <strong>Future Scope :</strong>
 </p>
 <ol>
-<li>Add bi-grams and n-gram features on byte files and improve the log-loss </li>
+<li>Try to remove biasness from model</li>
+<li>Train for more epochs</li>
+<li>Feature extraction from images</li>
 </ol>
 
 <hr width="100%" size="2">
